@@ -12,3 +12,19 @@ body {
   background-color: rgb(var(--ui-background)/var(--tw-bg-opacity));
   color: rgb(var(--ui-foreground)/var(--tw-text-opacity));
 }
+
+/* These style ensure the anchor of headings is placed above the heading with some certain offset
+  so the sticky header won't block them */
+.prose {
+  h1:before, h2:before, h3:before, h4:before, h5:before, h6:before {
+    @apply relative block w-0 h-16 -mt-16 pt-16;
+    content: '';
+  }
+  h2 a, h3 a, h4 a, h5 a, h6 a {
+    @apply relative;
+  }
+  h2 a:before, h3 a:before, h4 a:before, h5 a:before, h6 a:before {
+    @apply absolute -left-6 invisible hover:visible;
+    content: '#';
+  }
+}

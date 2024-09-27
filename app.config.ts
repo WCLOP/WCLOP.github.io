@@ -1,6 +1,7 @@
 export default defineAppConfig({
+  brandTitle: "CLOPE - CVPR",
   title:
     process.env.NODE_ENV === "production"
-      ? "Production Page"
-      : "Dev Page",
+      ? "1st CVPR Workshop and Challenge on Category-Level Object Pose Estimation in the Wild"
+      : "Dev: CVPR clope workshop",
 });

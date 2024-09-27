@@ -3,5 +3,5 @@
 </script>
 
 <template>
-  <ContentPage path="/content" />
+  <ContentPage path="/content/about" />
 </template>

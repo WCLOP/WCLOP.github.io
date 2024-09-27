@@ -5,38 +5,41 @@ const links = [
     icon: 'i-heroicons-home',
     to: '/'
   }, {
-    label: 'Meshes',
-    icon: 'i-heroicons-cube',
-    to: '/mesh'
+    label: 'Speakers',
+    icon: 'i-heroicons-presentation-chart-bar',
+    to: '/speakers'
   }, {
-    label: 'Tags',
-    icon: 'i-heroicons-tag',
-    to: '/tags'
+    label: 'Schedule',
+    icon: 'i-heroicons-calendar-days',
+    to: '/schedule'
   }, {
-    label: 'Background Jobs',
-    icon: 'i-heroicons-server-stack',
-    to: '/jobs'
-  }, {
-    label: 'McMaster',
-    icon: 'i-heroicons-puzzle-piece',
-    to: '/ext/mcm/home'
+    label: 'Call for papers',
+    icon: 'i-heroicons-paper-airplane',
+    to: '/call-for-papers'
   }], [{
     label: 'Settings',
     icon: 'i-heroicons-cog',
     to: '/settings'
   }, {
-    label: 'About',
+    label: 'Contact Us',
     icon: 'i-heroicons-information-circle',
     to: '/about'
   }]
 ]
+
+const appConfig = useAppConfig()
 </script>
 
 <template>
   <div class="w-full">
-    <div class="w-full flex border-b border-gray-200 dark:border-gray-700 px-2">
-      <div class="py-3.5 px-2 font-semibold text-nowrap"><span class="text-primary">Proto</span>Toat</div>
-      <UHorizontalNavigation :links="links" />
+    <div class="w-full border-b border-gray-200 dark:border-gray-700 sticky top-0 bg-white/90 dark:bg-gray-900/80 backdrop-blur z-30">
+      <!-- Wrap a container to align header's width with content -->
+      <UContainer>
+        <header class="w-full flex gap-4">
+          <div class="py-3.5 font-semibold text-nowrap"><span class="text-primary">{{ appConfig.brandTitle }}</span></div>
+          <UHorizontalNavigation :links="links" />
+        </header>
+      </UContainer>
     </div>
     <NuxtPage />
     <UNotifications />

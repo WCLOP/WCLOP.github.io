@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import type { PluginUtils } from "tailwindcss/types/config";
 
 const config: Partial<Config> = {
   darkMode: 'class',
@@ -16,6 +17,23 @@ const config: Partial<Config> = {
         transparent: 'transparent',
         current: 'currentColor',
       },
+      typography: ({ theme }: PluginUtils) => ({
+        DEFAULT: {
+          css: {
+            // ref: https://github.com/tailwindlabs/tailwindcss-typography/blob/main/src/styles.js
+            h1: {
+              fontWeight: '600',
+            },
+          },
+        },
+        lg: {
+          css: {
+            h1: {
+              fontSize: '2.1em',
+            },
+          },
+        },
+      }),
     },
   },
 };
