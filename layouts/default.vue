@@ -13,10 +13,10 @@ const links = [
     label: 'Schedule',
     icon: 'i-heroicons-calendar-days',
     to: '/schedule'
-  }, {
-    label: 'Call for papers',
-    icon: 'i-heroicons-paper-airplane',
-    to: '/call-for-papers'
+  // }, {
+  //   label: 'Call for papers',
+  //   icon: 'i-heroicons-paper-airplane',
+  //   to: '/call-for-papers'
   }], [{
     label: 'Settings',
     icon: 'i-heroicons-cog',

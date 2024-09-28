@@ -17,7 +17,7 @@ const height = 'h-24 md:h-40'
 <template>
   <div class="flex not-prose gap-8 justify-center my-4 flex-wrap">
     <div v-for="item in avatars" :key="item.name" :class="['flex flex-col items-center gap-3', width]">
-      <NuxtImg :src="item.image" alt="Avatar" :class="['rounded-full shadow-lg', height, width]" />
+      <NuxtImg :src="item.image" alt="Avatar" :class="['rounded-full shadow-lg object-cover', height, width]" />
       <a :href="item.link" target="_blank" class="font-semibold text-primary text-center">{{ item.name }}</a>
       <div class="text-center">{{ item.description }}</div>
     </div>
