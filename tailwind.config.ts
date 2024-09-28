@@ -2,7 +2,6 @@ import type { Config } from "tailwindcss";
 import type { PluginUtils } from "tailwindcss/types/config";
 
 const config: Partial<Config> = {
-  darkMode: 'class',
   content: [
     "./components/**/*.{js,vue,ts}",
     "./layouts/**/*.vue",
