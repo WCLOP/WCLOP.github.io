@@ -70,5 +70,8 @@ const showVerticalNavigation = ref(false)
     </header>
     <NuxtPage />
     <UNotifications />
+    <footer class="flex flex-col gap-4 items-center py-8 border-t border-slate-200 dark:border-slate-800">
+      <div>Powered by <a class="text-primary font-semibold" target="_blank" href="https://nuxt.com/">Nuxt</a> Ecosystem</div>
+    </footer>
   </div>
 </template>

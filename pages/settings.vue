@@ -10,10 +10,10 @@ const switchMode = () => {
 }
 </script>
 <template>
-  <UContainer class="prose my-4 dark:prose-invert">
-    <h1>Settings</h1>
+  <UContainer class="prose my-8 dark:prose-invert">
+    <h1 class="text-center">Settings</h1>
 
-    <div class="my-5 flex gap-x-2 items-center">
+    <div class="my-5 flex gap-x-2 items-center max-w-2xl mx-auto">
       <UButton @click="switchMode">Switch Color Mode</UButton>
       <span>{{ mode }}</span>
     </div>
