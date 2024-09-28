@@ -32,15 +32,15 @@ const appConfig = useAppConfig()
 
 <template>
   <div class="w-full">
-    <div class="w-full border-b border-gray-200 dark:border-gray-700 sticky top-0 bg-white/90 dark:bg-gray-900/80 backdrop-blur z-30">
+    <header class="w-full border-b border-gray-200 dark:border-gray-700 sticky top-0 bg-white/90 dark:bg-gray-900/80 backdrop-blur z-30">
       <!-- Wrap a container to align header's width with content -->
       <UContainer>
-        <header class="w-full flex gap-4">
+        <div class="w-full flex gap-4">
           <div class="py-3.5 font-semibold text-nowrap"><span class="text-primary">{{ appConfig.brandTitle }}</span></div>
           <UHorizontalNavigation :links="links" />
-        </header>
+        </div>
       </UContainer>
-    </div>
+    </header>
     <NuxtPage />
     <UNotifications />
   </div>

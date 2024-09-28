@@ -92,12 +92,6 @@ avatars:
     link: https://web.stanford.edu/~jksun/
     image: https://web.stanford.edu/~jksun/images/profile.jpg
     description: Stanford University
----
-::
-
-::avatar-list
----
-avatars:
   - name: Leonidas Guibas
     link: https://profiles.stanford.edu/leonidas-guibas
     image: https://profiles.stanford.edu/proxy/api/cap/profiles/8099/resources/profilephoto/350x350.1368774000000.jpg
@@ -110,12 +104,6 @@ avatars:
     link: https://sairlab.org/team/chenw/
     image: https://sairlab.org/img/team/chen-2023.jpg
     description: University at Buffalo
----
-::
-
-::avatar-list
----
-avatars:
   - name: Bowen Wen
     link: https://wenbowen123.github.io/
     image: /avatars/bowen_wen.png
