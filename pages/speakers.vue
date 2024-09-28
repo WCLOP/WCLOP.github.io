@@ -1,8 +1,7 @@
 <script setup lang="ts">
 const ui = useAppConfig().ui
 
-const speakers = await queryContent('/content/speakers').find();
-
+const speakers = (await queryContent('/content/speakers').find()).filter(a => a._type === 'markdown')
 // console.log(speakers)
 
 const toAvatar = (speaker: any) => ({

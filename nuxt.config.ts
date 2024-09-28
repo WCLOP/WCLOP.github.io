@@ -5,17 +5,20 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
 
   modules: ['@nuxt/ui', '@nuxt/content', '@nuxt/image'],
-  
+
   content: {
     sources: {
       // overwrite default source AKA `content` directory
       content: {
         driver: 'fs',
-        prefix: '/content', // All contents inside this source will be prefixed with `/docs`
+        prefix: '/content',
         base: resolve(__dirname, 'content')
       },
     },
-    documentDriven: true,
+    documentDriven: {
+      navigation: false,
+      surround: false,
+    },
   },
 
   css: ['~/assets/main.css'],
