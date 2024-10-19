@@ -17,6 +17,6 @@ const date = new Date(items[0].start)
       }) }}</span>
     </div>
 
-    <Timeline :items="items" class="max-w-3xl mx-auto pb-8" />
+    <Timeline :items="items" class="max-w-xl mx-auto pb-8" />
   </UContainer>
 </template>
