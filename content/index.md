@@ -6,74 +6,50 @@ title: 1st CVPR Workshop and Challenge on Category-Level Object Pose Estimation 
   May 17th, 2024
 </p>
 
-## Introduction
+## Summary
 
-The integration of artificial intelligence, wearable technologies, and robotics signifies a paradigm shift in healthcare, ushering in an era of personalized and pervasive digital health solutions. This pivotal intersection seamlessly melds real-time data acquisition, cutting-edge analytics, and precision-driven robotic interventions, together reshaping the very fabric of patient care. A spectrum of sensing modalities, from intricate brain-machine interfaces to dynamic muscle-machine interactions and advanced vision-based signals, offers a holistic understanding of the physiological and biomechanical intricacies inherent to the human body. These profound insights not only demystify cognitive processes and potential neurological anomalies but also set the stage for proactive interventions, particularly in the realms of rehabilitation/assistive, social, as well as surgical robotics. This workshop endeavors to dissect the multifaceted nature of this symbiotic integration, illuminating challenges, innovations, and the vast potential of a healthcare domain enriched by wearables and robotics. Our objective is to bridge the chasm between AI insights, wearable intelligence, and robotic precision, envisioning a healthcare future that’s seamlessly attuned to individual needs.
+This workshop aims to establish a comprehensive evaluation benchmark for category-level object pose estimation in the wild, addressing the community's need for robust, large-scale challenges. Traditional methods often overfit to smaller datasets, such as NOCS REAL275, limiting their applicability and scalability. The recent availability of extensive datasets like OmniNOCS, PACE, and Omni6DPose presents an opportune moment to critically examine and enhance state-of-the-art (SOTA) approaches. This workshop will explore advanced methodologies and foster discussions on creating more generalized models that perform effectively across diverse and challenging real-world scenarios.
 
-![Example image (place image in public folder)](/img/teaser-min.png)
+### Reasearch Questions
 
-This is a paragraph
+The workshop will investigate several critical research questions:
+- **Benchmarking and Evaluation Metrics**: What are the most effective metrics and benchmarks for evaluating pose estimation models on large-scale datasets, and how do these influence model development?
+- **Generalization Across Datasets**: How can models be designed to generalize better across different datasets without sacrificing performance on specific datasets?
+- **Adaptation and Transfer Learning**: What strategies can be employed to adapt models trained on simulated, smaller datasets to perform well on real-world, larger datasets?
 
-This is a paragraph
+### Workshop Objectives
 
-This is a paragraph
+- Foster a deeper understanding of the challenges associated with category-level object pose estimation in varied environments.
+- Encourage the development and sharing of innovative techniques that ensure robust model performance on large-scale datasets.
+- Promote community-wide collaboration to continually refine benchmarks and methodologies, advancing the field of computer vision.
 
-This is a paragraph
+### Expected Benefits
 
-This is a paragraph
+- Gaining insights into the latest research and technological advancements in category-level pose estimation.
+- Engaging with leading experts to discuss the current challenges and future directions of the field.
+- Accessing new tools and frameworks that facilitate the development of more effective and adaptable pose estimation models.
 
-This is a paragraph
+By focusing on these aspects, the workshop intends to catalyze significant advancements in object pose estimation, particularly through rigorous benchmarking and community-driven research initiatives.
 
-
-- This is a list item
-- This is another list item
-
-1. This is a numbered list item
-2. This is another numbered list item
+<!-- ![Example image (place image in public folder)](/img/teaser-min.png) -->
 
 ## Call for papers
 
-This is a paragraph
+We welcome submissions of full papers (up to 8 pages) and short papers (up to 4 pages), excluding references and appendices. All submissions must adhere to the CVPR 2025 format and will undergo peer review by domain experts. Accepted papers will be featured either as oral presentations or posters during the workshop. Topics of interest include, but are not limited to:
 
-This is a paragraph
+- Category-level 6D object pose estimation and tracking
+- Open-vocabulary object segmentation and 6D pose estimation
+- 6D pose estimation for optically challenging objects, such as transparent or reflective surfaces
+- Pose-aware robotics: leveraging object pose in autonomous robotic systems
 
-This is a paragraph
+We encourage novel research that pushes the boundaries of category-level object pose estimation, with a focus on real-world challenges and applications.
 
-This is a paragraph
 
-This is a paragraph
+### Paper Review Timeline
 
-This is a paragraph
-
-### Topics
-
-This is a paragraph
-
-This is a paragraph
-
-This is a paragraph
-
-This is a paragraph
-
-This is a paragraph
-
-This is a paragraph
-
-### Important Dates
-
-This is a paragraph
-
-This is a paragraph
-
-This is a paragraph
-
-This is a paragraph
-
-This is a paragraph
-
-This is a paragraph
-
-## Invited Speakers
+- Paper submission and supplemental material deadline: April 15, 2025
+- Notification to authors: May 10, 2025
+- Camera ready deadline: May 15, 2025
 
 ## Organizers
 

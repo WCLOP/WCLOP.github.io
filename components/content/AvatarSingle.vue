@@ -15,7 +15,7 @@ const height = 'h-24 lg:h-60'
 </script>
 
 <template>
-  <div class="flex not-prose gap-8 flex-wrap">
+  <div class="flex not-prose gap-8 flex-wrap pb-6">
     <div :class="['flex lg:flex-col items-center gap-3', 'lg:w-60']">
       <NuxtImg :src="avatar.image" alt="Avatar" :class="['rounded-full shadow-lg object-cover', height, width]" />
       <div class="flex flex-col items-center">
