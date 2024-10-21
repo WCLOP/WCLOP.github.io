@@ -10,12 +10,12 @@ withDefaults(defineProps<{
 }>(), {
 });
 
-const width = 'w-24 md:w-40'
-const height = 'h-24 md:h-40'
+const width = 'w-28 md:w-48'
+const height = 'h-28 md:h-48'
 </script>
 
 <template>
-  <div class="flex not-prose gap-8 justify-center my-4 flex-wrap">
+  <div class="flex not-prose gap-6 md:gap-8 justify-center my-4 flex-wrap">
     <div v-for="item in avatars" :key="item.name" :class="['flex flex-col items-center gap-3', width]">
       <NuxtImg :src="item.image" alt="Avatar" :class="['rounded-full shadow-lg object-cover', height, width]" />
       <a :href="item.link" target="_blank" class="font-semibold text-primary text-center">{{ item.name }}</a>
