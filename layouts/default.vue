@@ -31,7 +31,7 @@ const links = [
 const GithubLink = {
   label: '',
   icon: 'i-grommet-icons-github',
-  to: 'https://github.com/sshwy/cvpr-wclop-workshop',
+  to: 'https://github.com/WCLOP/WCLOP.github.io.git',
   target: '_blank',
 }
 

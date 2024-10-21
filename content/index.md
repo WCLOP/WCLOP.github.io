@@ -3,7 +3,7 @@ title: 1st CVPR Workshop and Challenge on Category-Level Object Pose Estimation 
 ---
 
 <p class="text-center">
-  May 17th, 2024
+  May 15th, 2025
 </p>
 
 ## Summary
