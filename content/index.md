@@ -1,5 +1,5 @@
 ---
-title: 1st CVPR Workshop and Challenge on Category-Level Object Pose Estimation in the Wild
+title: 1st ICCV Workshop and Challenge on Category-Level Object Pose Estimation in the Wild
 ---
 
 <p class="text-center">
@@ -35,7 +35,7 @@ By focusing on these aspects, the workshop intends to catalyze significant advan
 
 ## Call for papers
 
-We welcome submissions of full papers (up to 8 pages) and short papers (up to 4 pages), excluding references and appendices. All submissions must adhere to the CVPR 2025 format and will undergo peer review by domain experts. Accepted papers will be featured either as oral presentations or posters during the workshop. Topics of interest include, but are not limited to:
+We welcome submissions of full papers (up to 8 pages) and short papers (up to 4 pages), excluding references and appendices. All submissions must adhere to the ICCV 2025 format and will undergo peer review by domain experts. Accepted papers will be featured either as oral presentations or posters during the workshop. Topics of interest include, but are not limited to:
 
 - Category-level 6D object pose estimation and tracking
 - Open-vocabulary object segmentation and 6D pose estimation
