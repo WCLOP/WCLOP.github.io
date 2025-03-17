@@ -3,7 +3,7 @@ title: 1st ICCV Workshop and Challenge on Category-Level Object Pose Estimation 
 ---
 
 <p class="text-center">
-  May 15th, 2025
+  Sep. 15th, 2025
 </p>
 
 ## Summary
@@ -47,9 +47,9 @@ We encourage novel research that pushes the boundaries of category-level object 
 
 ### Paper Review Timeline
 
-- Paper submission and supplemental material deadline: April 15, 2025
-- Notification to authors: May 10, 2025
-- Camera ready deadline: May 15, 2025
+- Paper submission and supplemental material deadline: Aug. 15, 2025
+- Notification to authors: Sep. 10, 2025
+- Camera ready deadline: Sep. 15, 2025
 
 ## Organizers
 
