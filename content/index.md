@@ -62,20 +62,18 @@ We encourage novel research that pushes the boundaries of category-level object 
 ::avatar-list
 ---
 avatars:
-
-- name: Yang You
-    link: <https://qq456cvb.github.io>
+  - name: Yang You
+    link: https://qq456cvb.github.io
     image: /avatars/yang_you.png
     description: Stanford University
-- name: Jiyao Zhang
-    link: <https://jiyao06.github.io>
-    image: <https://jiyao06.github.io/images/jiyao_circle.jpg>
+  - name: Jiyao Zhang
+    link: https://jiyao06.github.io
+    image: https://jiyao06.github.io/images/jiyao_circle.jpg
     description: Peking University
-- name: Jiankai Sun
-    link: <https://web.stanford.edu/~jksun/>
-    image: <https://web.stanford.edu/~jksun/images/profile.jpg>
+  - name: Jiankai Sun
+    link: https://web.stanford.edu/~jksun/
+    image: https://web.stanford.edu/~jksun/images/profile.jpg
     description: Stanford University
-
 ---
 ::
 
@@ -84,36 +82,34 @@ avatars:
 ::avatar-list
 ---
 avatars:
-
-- name: Leonidas Guibas
-    link: <https://profiles.stanford.edu/leonidas-guibas>
-    image: <https://profiles.stanford.edu/proxy/api/cap/profiles/8099/resources/profilephoto/350x350.1368774000000.jpg>
+  - name: Leonidas Guibas
+    link: https://profiles.stanford.edu/leonidas-guibas
+    image: https://profiles.stanford.edu/proxy/api/cap/profiles/8099/resources/profilephoto/350x350.1368774000000.jpg
     description: Stanford University
-- name: Chen Wang
-    link: <https://sairlab.org/team/chenw/>
-    image: <https://sairlab.org/img/team/chen-2023.jpg>
+  - name: Chen Wang
+    link: https://sairlab.org/team/chenw/
+    image: https://sairlab.org/img/team/chen-2023.jpg
     description: University at Buffalo
-- name: Luca Carlone
-    link: <https://lucacarlone.mit.edu/>
-    image: <https://lucacarlone.mit.edu/wp-content/uploads/2017/07/Screen-Shot-2017-09-15-at-21.48.34.png>
+  - name: Luca Carlone
+    link: https://lucacarlone.mit.edu/
+    image: https://lucacarlone.mit.edu/wp-content/uploads/2017/07/Screen-Shot-2017-09-15-at-21.48.34.png
     description: MIT
-- name: Linfang Zheng
-    link: <https://lynne-zheng-linfang.github.io/>
+  - name: Linfang Zheng
+    link: https://lynne-zheng-linfang.github.io/
     image: /avatars/linfang_zheng.png
     description: University of Birmingham
-- name: Mac Schwager
-    link: <https://web.stanford.edu/~schwager/>
-    image: <https://msl.stanford.edu/images/people/macschwager.jpg>
+  - name: Mac Schwager
+    link: https://web.stanford.edu/~schwager/
+    image: https://msl.stanford.edu/images/people/macschwager.jpg
     description: Stanford University
-- name: Cewu Lu
-    link: <https://www.mvig.org/>
-    image: <https://i1.wp.com/ww1.sinaimg.cn/large/006y8lVajw1f92jdiu2udj308c08cgme.jpg>
+  - name: Cewu Lu
+    link: https://www.mvig.org/
+    image: https://i1.wp.com/ww1.sinaimg.cn/large/006y8lVajw1f92jdiu2udj308c08cgme.jpg
     description: Shanghai Jiao Tong University
-- name: Mingdong Wu
-    link: <https://aaronanima.github.io/>
+  - name: Mingdong Wu
+    link: https://aaronanima.github.io/
     image: /avatars/mingdong_wu.png
     description: Peking University
-
 ---
 ::
 
@@ -122,35 +118,33 @@ avatars:
 ::avatar-list
 ---
 avatars:
-
-- name: Hao Dong
-    link: <https://zsdonghao.github.io/>
+  - name: Hao Dong
+    link: https://zsdonghao.github.io/
     image: /avatars/hao_dong.png
     description: Peking University
-- name: Bowen Wen
-    link: <https://wenbowen123.github.io/>
+  - name: Bowen Wen
+    link: https://wenbowen123.github.io/
     image: /avatars/bowen_wen.png
     description: NVIDIA
-- name: Ruida Zhang
-    link: <https://lolrudy.github.io/>
+  - name: Ruida Zhang
+    link: https://lolrudy.github.io/
     image: /avatars/ruida_zhang.png
     description: Tsinghua University
-- name: Junbo Wang
-    link: <https://dadadadawjb.github.io/>
-    image: <https://dadadadawjb.github.io/assets/img/wjb_03.jpg>
+  - name: Junbo Wang
+    link: https://dadadadawjb.github.io/
+    image: https://dadadadawjb.github.io/assets/img/wjb_03.jpg
     description: Shanghai Jiao Tong University
-- name: Kai Xiong
-    link: <https://openreview.net/profile?id=~Kai_Xiong1>
+  - name: Kai Xiong
+    link: https://openreview.net/profile?id=~Kai_Xiong1
     image: /avatars/male.png
     description: Shanghai Jiao Tong University
-- name: Weiyao Huang
-    link: <https://github.com/sshwy>
+  - name: Weiyao Huang
+    link: https://github.com/sshwy
     image: /avatars/weiyao_huang.png
     description: Peking University
-- name: Yijia Weng
-    link: <https://yijiaweng.github.io/>
-    image: <https://yijiaweng.github.io/images/yijia.png>
+  - name: Yijia Weng
+    link: https://yijiaweng.github.io/
+    image: https://yijiaweng.github.io/images/yijia.png
     description: Stanford University
-
 ---
 ::
