@@ -8,14 +8,19 @@ title: 1st ICCV Workshop and Challenge on Category-Level Object Pose Estimation 
 
 ## Summary
 
-This workshop aims to establish a comprehensive evaluation benchmark for category-level object pose estimation in the wild, addressing the community's need for robust, large-scale challenges. Traditional methods often overfit to smaller datasets, such as NOCS REAL275, limiting their applicability and scalability. The recent availability of extensive datasets like OmniNOCS, PACE, and Omni6DPose presents an opportune moment to critically examine and enhance state-of-the-art (SOTA) approaches. This workshop will explore advanced methodologies and foster discussions on creating more generalized models that perform effectively across diverse and challenging real-world scenarios.
+This workshop addresses the critical problem of category-level object pose estimation and its applications within complex robotic manipulation scenarios. Pose estimation, a fundamental challenge in both 3D computer vision and robotics perception, involves accurately determining an object's complete 6-degree-of-freedom (6DoF) pose, comprising its 3D rotation and translation. Our workshop specifically focuses on advancing category-level pose estimation methods under realistic and demanding robotic manipulation settings, particularly emphasizing articulated objects, dynamic environments with potential human-object interactions, and objects subject to severe occlusions and partial visibility.
 
-### Reasearch Questions
+### Benchmarks
 
-The workshop will investigate several critical research questions:
-- **Benchmarking and Evaluation Metrics**: What are the most effective metrics and benchmarks for evaluating pose estimation models on large-scale datasets, and how do these influence model development?
-- **Generalization Across Datasets**: How can models be designed to generalize better across different datasets without sacrificing performance on specific datasets?
-- **Adaptation and Transfer Learning**: What strategies can be employed to adapt models trained on simulated, smaller datasets to perform well on real-world, larger datasets?
+To facilitate rigorous evaluation and stimulate innovation, the workshop will include two benchmarks as the following.
+
+#### Category-Level Pose Estimation in Complex Real-World Scenarios
+
+This track aims to benchmark current methods of category-level pose estimation using diverse, challenging datasets representative of real-world robotics scenarios. Participants will be encouraged to develop robust, generalizable, and computationally efficient algorithms. We will utilize existing large-scale benchmark datasets, such as PACE and Omni6DPose, together with our another curated dataset specifically collected for real-world robotic manipulation scenarios with UR-5, including articulated objects, dynamic object-camera interactions, within-hand manipulation scenarios, and complex occlusions.
+
+#### Pose Estimation Evaluation Through Downstream Robotic Manipulation Tasks
+
+The second track assesses the practical efficacy of pose estimation methods by integrating them directly into downstream robotic manipulation tasks. The 6DoF pose has been established as a reliable and invariant representation, significantly bridging the simulation-to-real-world transfer gap. In this challenge, we will employ the ManiSkill simulation environment, featuring tasks such as opening microwaves, drawer manipulation, pick-and-place operations, in-hand rotation, and water pouring. Participants will be provided with an oracle manipulation policy pre-trained using ground-truth 6DoF poses, achieving near-perfect performance. Competing methods will supply pose estimation inputs to this policy, and their performance will be directly measured through manipulation task success rates. Thus, higher accuracy in pose estimation is directly correlated with increased task success. We will also compare their inference speed as real-time performance is often a requirement for robotic manipulation.
 
 ### Workshop Objectives
 
@@ -29,7 +34,7 @@ The workshop will investigate several critical research questions:
 - Engaging with leading experts to discuss the current challenges and future directions of the field.
 - Accessing new tools and frameworks that facilitate the development of more effective and adaptable pose estimation models.
 
-By focusing on these aspects, the workshop intends to catalyze significant advancements in object pose estimation, particularly through rigorous benchmarking and community-driven research initiatives.
+By bridging cutting-edge advancements in category-level pose estimation with realistic robotic manipulation tasks, this workshop aims to foster interdisciplinary collaboration, inspire novel methodologies, and ultimately advance the capabilities of robotic agents operating autonomously in dynamic, unstructured, and complex real-world environments.
 
 <!-- ![Example image (place image in public folder)](/img/teaser-min.png) -->
 
@@ -43,7 +48,6 @@ We welcome submissions of full papers (up to 8 pages) and short papers (up to 4 
 - Pose-aware robotics: leveraging object pose in autonomous robotic systems
 
 We encourage novel research that pushes the boundaries of category-level object pose estimation, with a focus on real-world challenges and applications.
-
 
 ### Paper Review Timeline
 
