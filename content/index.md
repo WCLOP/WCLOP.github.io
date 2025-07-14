@@ -102,9 +102,9 @@ avatars:
     link: https://www.mvig.org/
     image: https://i1.wp.com/ww1.sinaimg.cn/large/006y8lVajw1f92jdiu2udj308c08cgme.jpg
     description: Shanghai Jiao Tong University
-  - name: Mingdong Wu
-    link: https://aaronanima.github.io/
-    image: /avatars/mingdong_wu.png
+  - name: Ruihai Wu
+    link: https://warshallrho.github.io/
+    image: /avatars/ruihai_wu.jpeg
     description: Peking University
 ---
 ::
@@ -142,5 +142,9 @@ avatars:
     link: https://yijiaweng.github.io/
     image: https://yijiaweng.github.io/images/yijia.png
     description: Stanford University
+  - name: Mingdong Wu
+    link: https://aaronanima.github.io/
+    image: /avatars/mingdong_wu.png
+    description: Peking University
 ---
 ::
