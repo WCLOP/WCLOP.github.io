@@ -10,17 +10,30 @@ title: 1st ICCV Workshop and Challenge on Category-Level Object Pose Estimation 
 
 This workshop addresses the critical problem of category-level object pose estimation and its applications within complex robotic manipulation scenarios. Pose estimation, a fundamental challenge in both 3D computer vision and robotics perception, involves accurately determining an object's complete 6-degree-of-freedom (6DoF) pose, comprising its 3D rotation and translation. Our workshop specifically focuses on advancing category-level pose estimation methods under realistic and demanding robotic manipulation settings, particularly emphasizing articulated objects, dynamic environments with potential human-object interactions, and objects subject to severe occlusions and partial visibility.
 
-### Benchmarks
+### WCLOP 2025 Challenge
 
-To facilitate rigorous evaluation and stimulate innovation, the workshop will include two benchmarks as the following.
+To facilitate rigorous evaluation and stimulate innovation, we organize the **WCLOP 2025 Challenge** with two complementary phases that address category-level object pose estimation in complex real-world scenarios. Unlike traditional instance-level methods that require known object meshes or reference images, our challenge addresses the more practical scenario where only object category information is available.
 
-#### Category-Level Pose Estimation in Complex Real-World Scenarios
+#### Phase 1: Category-Level Pose Estimation in Complex Real-World Scenarios
 
-This track aims to benchmark current methods of category-level pose estimation using diverse, challenging datasets representative of real-world robotics scenarios. Participants will be encouraged to develop robust, generalizable, and computationally efficient algorithms. We will utilize existing large-scale benchmark datasets, such as PACE and Omni6DPose, together with our another curated dataset specifically collected for real-world robotic manipulation scenarios with UR-5, including articulated objects, dynamic object-camera interactions, within-hand manipulation scenarios, and complex occlusions.
+This phase aims to benchmark current methods of category-level pose estimation using diverse, challenging datasets representative of real-world robotics scenarios. Participants will be encouraged to develop robust, generalizable, and computationally efficient algorithms using the **Omni6DPose** and **PACE** datasets. These datasets provide diverse object categories, challenging occlusion scenarios, articulated objects, dynamic object-camera interactions, within-hand manipulation scenarios, and realistic lighting conditions that push the boundaries of current pose estimation methods for robotic manipulation applications.
 
-#### Pose Estimation Evaluation Through Downstream Robotic Manipulation Tasks
+#### Phase 2: Pose Estimation Evaluation Through Downstream Robotic Manipulation Tasks
 
-The second track assesses the practical efficacy of pose estimation methods by integrating them directly into downstream robotic manipulation tasks. The 6DoF pose has been established as a reliable and invariant representation, significantly bridging the simulation-to-real-world transfer gap. In this challenge, we will employ the ManiSkill simulation environment, featuring tasks such as opening microwaves, drawer manipulation, pick-and-place operations, in-hand rotation, and water pouring. Participants will be provided with an oracle manipulation policy pre-trained using ground-truth 6DoF poses, achieving near-perfect performance. Competing methods will supply pose estimation inputs to this policy, and their performance will be directly measured through manipulation task success rates. Thus, higher accuracy in pose estimation is directly correlated with increased task success. We will also compare their inference speed as real-time performance is often a requirement for robotic manipulation.
+The second phase assesses the practical efficacy of pose estimation methods by integrating them directly into downstream robotic manipulation tasks. The 6DoF pose has been established as a reliable and invariant representation, significantly bridging the simulation-to-real-world transfer gap. We will employ the ManiSkill simulation environment, featuring tasks such as opening microwaves, drawer manipulation, pick-and-place operations, in-hand rotation, and water pouring. Participants will use their Phase 1 trained models on Phase 2's test data, and their performance will be directly measured through manipulation task success rates.
+
+**Phase 2 test data will be released in August.** The setting details will be announced then.
+
+#### Challenge Timeline
+
+- **Training Data Release:** Available at launch
+- **Phase 1 Submission Deadline:** September 15, 2025 (11:59 PM PST)
+- **Phase 2 Test Data Release:** August 2025
+- **Phase 2 Submission Deadline:** TBD
+- **Results Announcement:** WCLOP 2025 Workshop at ICCV 2025
+- **Awards Presentation:** WCLOP 2025 Workshop at ICCV 2025
+
+**Challenge Details:** For complete challenge information, submission guidelines, and participation details, please visit our [Challenge Portal](https://www.codabench.org/competitions/9742/)
 
 ### Workshop Objectives
 
@@ -68,11 +81,11 @@ avatars:
     description: Stanford University
   - name: Jiyao Zhang
     link: https://jiyao06.github.io
-    image: https://jiyao06.github.io/images/jiyao_circle.jpg
+    image: /avatars/jiyao_zhang.jpg
     description: Peking University
   - name: Jiankai Sun
     link: https://web.stanford.edu/~jksun/
-    image: https://web.stanford.edu/~jksun/images/profile.jpg
+    image: /avatars/jiankai_sun.jpg
     description: Stanford University
 ---
 ::
@@ -84,15 +97,15 @@ avatars:
 avatars:
   - name: Leonidas Guibas
     link: https://profiles.stanford.edu/leonidas-guibas
-    image: https://profiles.stanford.edu/proxy/api/cap/profiles/8099/resources/profilephoto/350x350.1368774000000.jpg
+    image: /avatars/leonidas_guibas.jpg
     description: Stanford University
   - name: Chen Wang
     link: https://sairlab.org/team/chenw/
-    image: https://sairlab.org/img/team/chen-2023.jpg
+    image: /avatars/chen_wang.jpg
     description: University at Buffalo
   - name: Luca Carlone
     link: https://lucacarlone.mit.edu/
-    image: https://lucacarlone.mit.edu/wp-content/uploads/2017/07/Screen-Shot-2017-09-15-at-21.48.34.png
+    image: /avatars/luca_carlone.png
     description: MIT
   - name: Linfang Zheng
     link: https://lynne-zheng-linfang.github.io/
@@ -100,11 +113,11 @@ avatars:
     description: University of Birmingham
   - name: Mac Schwager
     link: https://web.stanford.edu/~schwager/
-    image: https://msl.stanford.edu/images/people/macschwager.jpg
+    image: /avatars/mac_schwager.jpg
     description: Stanford University
   - name: Cewu Lu
     link: https://www.mvig.org/
-    image: https://i1.wp.com/ww1.sinaimg.cn/large/006y8lVajw1f92jdiu2udj308c08cgme.jpg
+    image: /avatars/cewu_lu.jpg
     description: Shanghai Jiao Tong University
   - name: Ruihai Wu
     link: https://warshallrho.github.io/
@@ -130,25 +143,45 @@ avatars:
     link: https://lolrudy.github.io/
     image: /avatars/ruida_zhang.png
     description: Tsinghua University
-  - name: Junbo Wang
-    link: https://dadadadawjb.github.io/
-    image: https://dadadadawjb.github.io/assets/img/wjb_03.jpg
-    description: Shanghai Jiao Tong University
-  - name: Kai Xiong
-    link: https://openreview.net/profile?id=~Kai_Xiong1
+  - name: Yitong Peng
+    link: #
     image: /avatars/male.png
-    description: Shanghai Jiao Tong University
+    description: Peking University
   - name: Weiyao Huang
     link: https://github.com/sshwy
     image: /avatars/weiyao_huang.png
     description: Peking University
-  - name: Yijia Weng
-    link: https://yijiaweng.github.io/
-    image: https://yijiaweng.github.io/images/yijia.png
-    description: Stanford University
   - name: Mingdong Wu
     link: https://aaronanima.github.io/
     image: /avatars/mingdong_wu.png
     description: Peking University
+  - name: Lixin Yang
+    link: https://lixiny.github.io/
+    image: /avatars/lixin_yang.jpg
+    description: Shanghai Jiao Tong University
+  - name: Junxiao Kong
+    link: https://dawnx434.github.io/
+    image: /avatars/junxiao_kong.jpg
+    description: Shanghai Jiao Tong University
+  - name: Junwen Huang
+    link: https://demianjh.github.io/
+    image: /avatars/junwen_huang.png
+    description: Technical University of Munich
+  - name: Weihang Li
+    link: https://colin-de.github.io/
+    image: /avatars/weihang_li.png
+    description: Technical University of Munich
+  - name: Yijia Weng
+    link: https://yijiaweng.github.io/
+    image: /avatars/yijia_weng.png
+    description: Stanford University
+  - name: Mandi Zhao
+    link: https://mandizhao.github.io/
+    image: /avatars/mandi_zhao.png
+    description: Stanford University
+  - name: Qiaojun Yu
+    link: https://scholar.google.com/citations?user=hOxT8QUAAAAJ&hl=zh-CN
+    image: /avatars/qiaojun_yu.jpg
+    description: Shanghai Jiao Tong University
 ---
 ::
