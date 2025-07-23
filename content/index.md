@@ -3,7 +3,7 @@ title: 1st ICCV Workshop and Challenge on Category-Level Object Pose Estimation 
 ---
 
 <p class="text-center">
-  Sep. 15th, 2025
+  Oct. 20th, 2025 | ICCV workshop full-day session
 </p>
 
 ## Summary
@@ -35,20 +35,6 @@ The second phase assesses the practical efficacy of pose estimation methods by i
 
 **Challenge Details:** For complete challenge information, submission guidelines, and participation details, please visit our [Challenge Portal](https://www.codabench.org/competitions/9742/)
 
-### Workshop Objectives
-
-- Foster a deeper understanding of the challenges associated with category-level object pose estimation in varied environments.
-- Encourage the development and sharing of innovative techniques that ensure robust model performance on large-scale datasets.
-- Promote community-wide collaboration to continually refine benchmarks and methodologies, advancing the field of computer vision.
-
-### Expected Benefits
-
-- Gaining insights into the latest research and technological advancements in category-level pose estimation.
-- Engaging with leading experts to discuss the current challenges and future directions of the field.
-- Accessing new tools and frameworks that facilitate the development of more effective and adaptable pose estimation models.
-
-By bridging cutting-edge advancements in category-level pose estimation with realistic robotic manipulation tasks, this workshop aims to foster interdisciplinary collaboration, inspire novel methodologies, and ultimately advance the capabilities of robotic agents operating autonomously in dynamic, unstructured, and complex real-world environments.
-
 <!-- ![Example image (place image in public folder)](/img/teaser-min.png) -->
 
 ## Call for papers
@@ -62,11 +48,18 @@ We welcome submissions of full papers (up to 8 pages) and short papers (up to 4 
 
 We encourage novel research that pushes the boundaries of category-level object pose estimation, with a focus on real-world challenges and applications.
 
+**Paper Submission Portal:** [OpenReview WCLOP 2025](https://openreview.net/group?id=thecvf.com/ICCV/2025/Workshop/WCLOP)
+
 ### Paper Review Timeline
 
-- Paper submission and supplemental material deadline: Aug. 15, 2025
-- Notification to authors: Sep. 10, 2025
-- Camera ready deadline: Sep. 15, 2025
+- Paper submission and supplemental material deadline: Sep. 22, 2025
+- Notification to authors: Sep. 29, 2025
+
+## Sponsorship
+
+*Information about our sponsors will be updated soon. Stay tuned!*
+
+<!-- Sponsor logos and information will be added here -->
 
 ## Organizers
 
