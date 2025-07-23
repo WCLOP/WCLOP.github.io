@@ -10,7 +10,7 @@ title: 1st ICCV Workshop and Challenge on Category-Level Object Pose Estimation 
 
 This workshop addresses the critical problem of category-level object pose estimation and its applications within complex robotic manipulation scenarios. Pose estimation, a fundamental challenge in both 3D computer vision and robotics perception, involves accurately determining an object's complete 6-degree-of-freedom (6DoF) pose, comprising its 3D rotation and translation. Our workshop specifically focuses on advancing category-level pose estimation methods under realistic and demanding robotic manipulation settings, particularly emphasizing articulated objects, dynamic environments with potential human-object interactions, and objects subject to severe occlusions and partial visibility.
 
-### WCLOP 2025 Challenge
+## WCLOP 2025 Challenge
 
 To facilitate rigorous evaluation and stimulate innovation, we organize the **WCLOP 2025 Challenge** with two complementary phases that address category-level object pose estimation in complex real-world scenarios. Unlike traditional instance-level methods that require known object meshes or reference images, our challenge addresses the more practical scenario where only object category information is available.
 
@@ -24,7 +24,7 @@ The second phase assesses the practical efficacy of pose estimation methods by i
 
 **Phase 2 test data will be released in August.** The setting details will be announced then.
 
-#### Challenge Timeline
+### Challenge Timeline
 
 - **Training Data Release:** Available at launch
 - **Phase 1 Submission Deadline:** September 15, 2025 (11:59 PM PST)
