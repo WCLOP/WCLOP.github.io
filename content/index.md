@@ -27,7 +27,7 @@ The second phase assesses the practical efficacy of pose estimation methods by i
 ### Challenge Timeline
 
 - **Training Data Release:** Available at launch
-- **Phase 1 Submission Deadline:** September 15, 2025 (11:59 PM PST)
+- **Phase 1 Submission Deadline:** ~~September 15, 2025 (11:59 PM PST)~~ September 15, 2025 (11:59 PM PST)
 - **Phase 2 Test Data Release:** August 2025
 - **Phase 2 Submission Deadline:** TBD
 - **Results Announcement:** WCLOP 2025 Workshop at ICCV 2025
@@ -138,7 +138,7 @@ avatars:
     description: Tsinghua University
   - name: Yitong Peng
     link: #
-    image: /avatars/male.png
+    image: /avatars/yitong_peng.jpg
     description: Peking University
   - name: Weiyao Huang
     link: https://github.com/sshwy
