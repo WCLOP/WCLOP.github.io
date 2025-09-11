@@ -39,7 +39,7 @@ The second phase assesses the practical efficacy of pose estimation methods by i
 
 ## Call for papers
 
-We welcome submissions of full papers (up to 8 pages) and short papers (up to 4 pages), excluding references and appendices. All submissions must adhere to the ICCV 2025 format and will undergo peer review by domain experts. **This is a non-archival track** - accepted papers will be featured either as oral presentations or posters during the workshop without appearing in the official ICCV proceedings. Topics of interest include, but are not limited to:
+We welcome submissions of full papers (up to 8 pages) and short papers (up to 4 pages), excluding references and appendices. All submissions must adhere to the ICCV 2025 Author Kit and will undergo **single-blind** peer review by domain experts. This is a non-archival track (accepted papers will be featured as oral presentations or posters during the workshop without appearing in the official ICCV proceedings). **Ongoing work, arXiv preprints, and already published papers are all welcome.**
 
 - Category-level 6D object pose estimation and tracking
 - Open-vocabulary object segmentation and 6D pose estimation
