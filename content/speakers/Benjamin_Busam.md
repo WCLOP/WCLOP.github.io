@@ -7,4 +7,4 @@ image: /avatars/benjamin_busam.jpeg
 
 # Speaker Bio
 
-Benjamin Busam's expertise in computer vision, specifically in geometric deep learning and its application to 3D reconstruction and perception, aligns with the core topics of the workshop. His experience enhances discussions on the geometric aspects of pose estimation and the development of [one-shot methods](https
+Benjamin Busam's expertise in computer vision, specifically in geometric deep learning and its application to 3D reconstruction and perception, aligns with the core topics of the workshop. His experience enhances discussions on the geometric aspects of pose estimation and the development of [one-shot methods](https://arxiv.org/pdf/2203.15533)

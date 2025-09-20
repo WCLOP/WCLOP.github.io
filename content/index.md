@@ -27,9 +27,9 @@ The second phase assesses the practical efficacy of pose estimation methods by i
 ### Challenge Timeline
 
 - **Training Data Release:** Available at launch
-- **Phase 1 Submission Deadline:** ~~September 15, 2025 (11:59 PM PST)~~ September 19, 2025 (11:59 PM PST)
-- **Phase 2 Test Data Release:** August 2025
-- **Phase 2 Submission Deadline:** TBD
+- **Phase 1 Submission Deadline:** ~~September 15, 2025 (11:59 PM PST)~~ October 05, 2025 (11:59 PM PST)
+- **Phase 2 Test Data Release:** September 18, 2025
+- **Phase 2 Submission Deadline:** October 05, 2025 (11:59 PM PST)
 - **Results Announcement:** WCLOP 2025 Workshop at ICCV 2025
 - **Awards Presentation:** WCLOP 2025 Workshop at ICCV 2025
 
