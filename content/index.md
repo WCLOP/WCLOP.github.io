@@ -176,5 +176,9 @@ avatars:
     link: https://scholar.google.com/citations?user=hOxT8QUAAAAJ&hl=zh-CN
     image: /avatars/qiaojun_yu.jpg
     description: Shanghai Jiao Tong University
+  - name: Cole Harrison
+    link: https://www.linkedin.com/in/cole-harrison-ai
+    image: /avatars/cole_harrison.jpg
+    description: Credera
 ---
 ::
