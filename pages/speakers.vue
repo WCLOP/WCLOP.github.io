@@ -21,7 +21,7 @@ const toAvatar = (speaker: any) => ({
         <div class="max-lg:py-4">
           <AvatarSingle :avatar="toAvatar(speaker)" />
         </div>
-        <ContentRenderer :value="speaker" class="prose-h1:text-3xl prose-h2:text-2xl prose-h3:text-xl" />
+        <ContentRenderer :value="speaker" class="prose-h1:text-3xl prose-h2:text-xl prose-h3:text-lg prose-h2:font-semibold prose-h2:text-blue-600 dark:prose-h2:text-blue-400 prose-h2:mb-4 prose-h2:mt-6 prose-h2:border-b prose-h2:border-gray-200 dark:prose-h2:border-gray-700 prose-h2:pb-2" />
       </div>
     </div>
   </UContainer>
