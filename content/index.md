@@ -116,6 +116,10 @@ avatars:
     link: https://warshallrho.github.io/
     image: /avatars/ruihai_wu.jpeg
     description: Peking University
+  - name: Mikaela Angelina Uy
+    link: https://mikacuy.github.io/
+    image: /avatars/mikaela_uy.jpg
+    description: NVIDIA
 ---
 ::
 
@@ -179,6 +183,6 @@ avatars:
   - name: Cole Harrison
     link: https://www.linkedin.com/in/cole-harrison-ai
     image: /avatars/cole_harrison.jpg
-    description: Credera
+    description: Amazon
 ---
 ::
