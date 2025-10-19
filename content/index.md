@@ -3,7 +3,7 @@ title: 1st ICCV Workshop and Challenge on Category-Level Object Pose Estimation 
 ---
 
 <p class="text-center">
-  Oct. 20th, 2025 | ICCV workshop full-day session
+  Room 324 | Oct. 20th, 2025 | ICCV workshop full-day session
 </p>
 
 ## Summary
