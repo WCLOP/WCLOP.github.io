@@ -187,13 +187,13 @@ avatars:
 ---
 ::
 
-<!-- ## Sponsor
+## Sponsor
 
 ::sponsor-list
 ---
 avatars:
-  - name: JDT
+  - name: JD Technology
     link: https://www.jdt.com.cn/
     image: /avatars/jdt.png
 ---
-:: -->
+::
