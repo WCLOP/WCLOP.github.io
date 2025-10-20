@@ -189,7 +189,7 @@ avatars:
 
 ## Sponsor
 
-::avatar-list
+::sponsor-list
 ---
 avatars:
   - name: JDT
