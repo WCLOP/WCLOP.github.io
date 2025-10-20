@@ -186,3 +186,15 @@ avatars:
     description: Amazon
 ---
 ::
+
+## Sponsors
+
+::avatar-list
+---
+avatars:
+  - name: JDT
+    link: https://www.jdt.com.cn/
+    image: /avatars/jdt.png
+    description: JDT
+---
+::
