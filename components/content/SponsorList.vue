@@ -28,7 +28,7 @@ const logoHeight = 'h-16 md:h-24'
       </div>
       
       <!-- Text description section -->
-      <div class="w-full max-w-4xl text-center">
+      <div class="w-full max-w-4xl text-justify">
         <div class="text-gray-700 dark:text-gray-300 text-base lg:text-lg leading-relaxed">{{ item.description }}</div>
       </div>
     </div>
