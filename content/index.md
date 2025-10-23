@@ -194,6 +194,6 @@ avatars:
 avatars:
   - name: JD Technology
     link: https://www.jdt.com.cn/
-    image: /avatars/jdt.jpg
+    image: /avatars/JDTech.jpg
 ---
 ::
