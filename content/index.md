@@ -195,5 +195,6 @@ avatars:
   - name: JD Technology
     link: https://www.jdt.com.cn/
     image: /avatars/JDTech.jpg
+    description: JD Technology provides technology services to private and public sector clients. Utilizing advanced technologies such as artificial intelligence, big data, cloud computing, and IoT, JD Technology delivers products and solutions tailored to various industries, helping businesses reduce supply chain costs and improve operational efficiency. Over 60% of JD Technology's employees are R&D and professional personnel, including many IEEE fellows and more than 40 top global scientists. The company has served 100 cities, over 1,000 financial institutions, over 2.5 million micro, small, and medium-sized enterprises, over 2,500 large enterprises, and more than 500 million individual users.
 ---
 ::
