@@ -10,7 +10,7 @@ withDefaults(defineProps<{
 }>(), {
 });
 
-const width = 'w-64 md:w-96'
+const width = 'w-48 md:w-72'
 const height = 'h-16 md:h-24'
 </script>
 
